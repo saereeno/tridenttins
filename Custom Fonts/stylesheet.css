@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Fligen';
+    src: url('Fligen-Regular.eot');
+    src: url('Fligen-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Fligen-Regular.woff2') format('woff2'),
+        url('Fligen-Regular.woff') format('woff'),
+        url('Fligen-Regular.ttf') format('truetype'),
+        url('Fligen-Regular.svg#Fligen-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyrene Regular Advanced';
+    src: url('CyreneRegularAdvanced.eot');
+    src: url('CyreneRegularAdvanced.eot?#iefix') format('embedded-opentype'),
+        url('CyreneRegularAdvanced.woff2') format('woff2'),
+        url('CyreneRegularAdvanced.woff') format('woff'),
+        url('CyreneRegularAdvanced.ttf') format('truetype'),
+        url('CyreneRegularAdvanced.svg#CyreneRegularAdvanced') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bargemo';
+    src: url('Bargemo-Regular.eot');
+    src: url('Bargemo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Bargemo-Regular.woff2') format('woff2'),
+        url('Bargemo-Regular.woff') format('woff'),
+        url('Bargemo-Regular.ttf') format('truetype'),
+        url('Bargemo-Regular.svg#Bargemo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cabinest';
+    src: url('Cabinest-Regular.eot');
+    src: url('Cabinest-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Cabinest-Regular.woff2') format('woff2'),
+        url('Cabinest-Regular.woff') format('woff'),
+        url('Cabinest-Regular.ttf') format('truetype'),
+        url('Cabinest-Regular.svg#Cabinest-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

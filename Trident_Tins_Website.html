@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trident Tins</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, p, img {
+            margin: 5;
+            padding: 5;
+        }
+
+        /* Global styles */
+        body {
+            font-family: 'Fligen', sans-serif;
+            color: #d5d5d5;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-weight: normal;
+            font-style: normal;
+            color:#ffffff;
+            margin-bottom: 20px; /* Added margin to separate header and image */
+        }
+
+        img {
+          max-width:100%;
+       height: 650px;
+       width: 2850px;
+        } 
+
+        /* Header styles */
+        .header {
+            text-align: center;
+            background: #166091;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: underline;
+            margin-right: 20px;
+        }
+
+
+        /* Image container styles */
+        .image-container {
+            position: relative;
+            text-align: center;
+            margin-bottom: 20px; /* Added margin to separate header and image */
+        }
+
+        .overlay-text, .other-text {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 75px;
+            text-align: center;
+        }
+
+        .overlay-text {
+            top: 35%;
+            color: #fff;
+        }
+
+        .other-text {
+            top: 72%;
+            color: #d5d5d5;
+            font-size: 20px;
+        }
+
+        /* Container styles */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .card {
+            border-radius: 15px;
+            width: 30%;
+            height: 70%;
+            background: #166091;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .content-container {
+            text-align: center;
+            
+        }
+
+        .content-container img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+        }
+        .content-container p{
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .button {
+            background-color: rgb(20, 82, 123);
+            border: none;
+            border-radius: 25px;
+            color: #ffffff;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>TRIDENT TINS</h1>
+    <div>
+        <a href="#about-us">About Us</a> <!-- Replace #about-us with your actual About Us section URL -->
+        <a href="#contact-us">Contact Us</a> <!-- Replace #contact-us with your actual Contact Us section URL -->
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="/Users/mackenziesmith/Downloads/Custom Fonts/speckles.jpg" alt="Trulli">
+    <div class="overlay-text">WELCOME TO THE SEA</div>
+    <div class="other-text">Discover the divine fusion of Poseidon's catch and my culinary craft. As Amphitrite, I've perfected the art of preserving the sea's treasures in every can. Our collaboration brings you a taste of Olympus, loved by gods and mortals alike.</div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <div class="content-container">
+            <h3>Tuna</h3>
+            <div class="row">
+                <img src='/Users/mackenziesmith/Downloads/Custom Fonts/Short Tin Can Mock-Up 01 (Free) by MassDream.png' alt="Tuna">
+            </div>
+            <p>$25</p>
+            <p>Experience the pinnacle of flavor with our Aged Tuna, aged in premium olive oil for two years. Revel in the perfect balance of tenderness and richness, infused with a hint of exotic spice derived from Athens.</p>
+            <button class="button">Shop</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="content-container">
+            <h3>Trout</h3>
+            <div class="row">
+                <img src='/Users/mackenziesmith/Downloads/Custom Fonts/Tuna-can-mockup-02.png' alt="Trout">
+            </div>
+            <p>$25</p>
+            <p>Delight in the sophisticated taste of Aged Trout, expertly aged in velvety olive oil. Immerse yourself in buttery textures and subtle woodland notes, a testament to nature's finest craftsmanship.</p>
+            <button class="button">Shop</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="content-container">
+            <h3>Sardines</h3>
+            <div class="row">
+                <img src='/Users/mackenziesmith/Downloads/Custom Fonts/Sardines.png' alt="Sardines">
+            </div>
+            <p>$25</p>
+            <p>Journey to the Mediterranean with our Aged Sardines, matured to perfection in golden olive oil. Enjoy the delicate yet robust flavors, capturing the essence of sun-drenched shores and briny breezes.</p>
+            <button class="button">Shop</button>
+        </div>
+    </div>
+</div>
+
+<style>
+  /* Your existing styles... */
+
+  /* New styles for About Us section */
+  .about-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+            background-color: #f5f5f5;
+            color: #166091;
+            margin-bottom: 10px;
+        }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+  }
+
+  .about-image, .about-description {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  .about-image img {
+    height:500px;
+    width: 500px;
+    border-radius: 10px;
+  }
+
+  .about-description h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .about-description p {
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+  }
+  
+</style>
+<title>TRIDENT TINS</title>
+</head>
+<body>
+
+
+  <div class="about-container" id="about-us">
+  <div class="about-section">
+    <div class="about-image">
+      <img src="/Users/mackenziesmith/Downloads/Custom Fonts/Freeland by Voldie.jpeg" alt="About Us Image">
+    </div>
+    <div class="about-description">
+      <h2>About Us</h2>
+      <p>Welcome to Trident Tins, where Poseidon's catches meet my culinary creations!
+
+        I'm Amphitrite, the culinary mastermind, and Poseidon, my skilled partner in fishing. Together, we've crafted Trident Tins to bring you the essence of the sea in every can. Poseidon ensures only the finest catches make it into our cans, while I infuse them with flavors that tantalize the taste buds. Loved by Mount Olympus and beyond, Trident Tins offers a divine culinary experience like no other. Reach out to me for all inquiries and discussions about Trident Tins. Dive into the flavors of the sea with Trident Tins—where quality and taste reign supreme</p>
+    </div>
+  </div>
+</div>
+<style>
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            padding: 100px;
+            background-color: #e0e0e0;
+        }
+
+    .additional-info {
+      flex: 1;
+      padding-left: 20px;
+      border-left: 2px solid #14527B;
+      color:#166091;
+      font-size:22px;
+    }
+    .additional-info p{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:#166091;
+      width: 500px
+    }
+
+    .contact-section {
+      max-width: 1000px;
+      text-align: left;
+      align-items: left;
+    }
+
+    .contact-form {
+      flex: 1;
+      padding-right: 20px;
+    }
+
+
+    .contact-section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #14527B;
+    }
+
+    .contact-form .form-input {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .form-submit {
+      background-color: #14527B;
+      border: none;
+      border-radius: 25px;
+      color: #fff;
+      padding: 15px 32px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-submit:hover {
+      background-color: #0E3D5C;
+    }
+
+    .additional-info p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+</style>
+<title>TRIDENT TINS</title>
+</head>
+<body>
+
+  
+  <div class="contact-container" id="contact-us">
+    <div class="additional-info">
+      <h2>Additional Information</h2>
+      <p>Have a question or want to share your Trident Tins experience? We're here to dive into the details! Reach out to our friendly team for inquiries, feedback, or anything else.
+      </p>
+      <p>Email: amphitrite@tridenttins.com
+      </p>
+      <p>Phone: +1 (555) 507-0312</p>
+      <p>Address: 50th Ocean Avenue, Atlantis, SEA, 50770</p>
+    </div>
+    <div class="contact-section">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <div class="form-input-group">
+          <input type="text" class="form-input" placeholder="Your Name">
+          <input type="email" class="form-input" placeholder="Your Email">
+        </div>
+        <textarea class="form-input" rows="5" placeholder="Your Message"></textarea>
+        <button class="form-submit">Submit</button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</body>
+</html>
